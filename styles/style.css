@@ -21,6 +21,21 @@
 .banner-btn:hover{
     background-color:#ac6008 ;
 }
+.color-gray{
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+}
+.black-bold-text{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+.orange-text{
+    color: #FF900E;
+    font-size: 45px;
+    font-weight: 700;
+}
 /* nav-bar start */
 #nav-section{
     width: 75%;
@@ -91,3 +106,32 @@
     align-items: center;
 }
 /* banner section end */
+
+/* feature section start */
+#feature-section{
+    /* width: 75%;
+    max-width: 1440px; */
+    margin: 0 auto;
+    margin-bottom: 130px;
+}
+.feature-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 73px;
+}
+.feature-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    /* grid-template-rows: repeat(2, 1fr); */
+}
+
+.feature-text p{
+    color: #727272;
+    font-size: 16px;
+}
+.feature-text button{
+    margin: 24px 0 32px 0;
+}
+/* feature section end */
