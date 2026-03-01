@@ -1,0 +1,46 @@
+/* google font and universal styles*/
+*{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+
+  margin: 0;
+  padding: 0;
+}
+/* nav-bar start */
+#nav-section{
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0 102px 0;
+}
+.nav-container h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+.nav-text li{
+    list-style: none;
+    
+}
+.nav-text li a{
+    text-decoration: none;
+    color: #424242;
+    /* margin-right: 40px; */
+    cursor: pointer;
+
+
+}
+.nav-text{
+    display: flex;
+    grid-template-columns: repeat(1, 1fr);  
+    gap: 40px;
+}
+/* navbar end */
+
+/* banner section start */
+/* banner section end */
